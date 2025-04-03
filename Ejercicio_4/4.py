@@ -24,10 +24,10 @@ p2 = [1, 0, -1]
 print("Resta de polinomios:", restar(p1, p2))
 
 cociente, residuo = dividir(p1, p2)
-print("División de polinomios: Cociente:", cociente, "Residuo:", residuo)
+print("Division de polinomios: Cociente:", cociente, "Residuo:", residuo)
 
 termino_a_eliminar = 2
-print("Polinomio después de eliminar el término", termino_a_eliminar, ":", eliminar(p1, termino_a_eliminar))
+print("Polinomio despues de eliminar el termino", termino_a_eliminar, ":", eliminar(p1, termino_a_eliminar))
 
 termino_a_buscar = 3
-print("¿Existe el término", termino_a_buscar, "en el polinomio?", existe(p1, termino_a_buscar))
+print("Existe el termino", termino_a_buscar, "en el polinomio?", existe(p1, termino_a_buscar))
